@@ -1,0 +1,252 @@
+
+
+* {
+  box-sizing: border-box;
+  
+  /* overflow: auto; */
+}
+
+.App{
+  background-color: #e6e6e6;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+    color: #000000;  
+}
+
+.menu  {
+  background-color: #ffffff;
+  
+}
+
+.menu button {
+  padding: 15px 32px;
+  margin: 20px 10px 0px 20px;
+  background-color: #73e600;
+  color: #ffffff;
+  width: 38%;
+  border-radius: 14px;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+.menu button:hover {
+  background-color: #4d9900;
+}
+
+.contentWrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flights{
+  position: relative;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  color: #333;
+  flex-basis: width;
+  background-color: #fff;
+}
+
+
+.flight_image{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e6e6e6 ;
+}
+
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  font-size: 25px;
+  background-color: #e6e6e6;
+}
+
+@media only screen and (max-width: 700px) {
+  .menu{
+    width:100%;
+  }
+
+.flights{
+  width: 100%;
+}
+
+.menu button {
+  padding: 12px;
+  margin: 20px 10px 0px 63px;
+  background-color: #73e600;
+  color: #ffffff;
+  width: 28%;
+  border-radius: 7px;
+  display: inline-block;
+  font-size: 22px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.flight_image{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e6e6e6 ;
+}
+
+.flights > h4{
+  color:#0066ff;
+  margin: 0 0 4% 25%;
+}
+
+.detials{
+margin:0 0 0 25%;
+}
+
+.filter_heading{
+  text-align: center;
+  border-bottom: 2px solid grey;
+  margin: 0 0 0px 20%;
+  font-size: 20px; 
+width: 50%;
+}
+  
+ 
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 702px) {
+  .menu{
+    width:38%;
+    display: inline-block;
+    float: left;
+  }
+  
+  .flights{
+    width: 45%;
+    margin:0 10px 10px 10px;
+  }
+
+  .flight_image{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e6e6 ;
+  }
+
+  .flights > h4{
+    color:#0066ff;
+    /* margin: 0 0 4% 25%; */
+  }
+  
+  .detials{
+  margin:0 0 0 8%;
+  }
+  .filter_heading{
+    text-align: center;
+    border-bottom: 2px solid grey;
+    margin: 0 0 0px 23%;
+    font-size: 20px;
+    width: 61%;
+  
+  }
+  
+}
+
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .menu{
+    width:22%;
+    display: inline-block;
+    float: left;
+  }
+
+  .flights{
+    margin:0 10px 10px 10px;
+    width: 22%;
+  }
+
+  .flight_image{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e6e6 ;
+  }
+  
+  .flights > h4{
+    color:#0066ff;
+  }
+  
+  .detials{
+  margin:0 0 0 8%;
+  }
+  .filter_heading{
+    text-align: center;
+    border-bottom: 2px solid grey;
+    margin: 6% 0px 5% 23%;
+    font-size: 20px;
+    width: 57%;
+  
+  }
+ 
+}
+
+
+
+
+@media  only screen and (max-width: 4700px) and (min-width: 1441px) {
+  .App {
+    width:1500px;
+    max-width: 100%; 
+	margin: 0 auto !important; 
+	float: none !important;
+  }
+  .menu{
+    width:22%;
+    display: inline-block;
+    float: left;
+  }
+
+  .flights{
+    margin:0 10px 10px 10px;
+    width: 22%;
+  }
+
+  .flight_image{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e6e6 ;
+  }
+  
+  .flights > h4{
+    color:#0066ff;
+  }
+  
+  .detials{
+  margin:0 0 0 8%;
+  }
+  .filter_heading{
+    text-align: center;
+    border-bottom: 2px solid grey;
+    margin: 6% 0px 5% 23%;
+    font-size: 20px;
+    width: 57%;
+  
+  }
+}
